@@ -17,3 +17,5 @@ export default class Animal extends Component {
         </li>
     }
 }
+
+//this is my card - how you want it to look

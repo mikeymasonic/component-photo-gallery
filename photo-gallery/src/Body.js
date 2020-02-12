@@ -12,8 +12,7 @@ export default class Body extends Component {
 
         return animal.horns === this.state.selected || animal.keyword === this.state.selected;
       })
-      .map(animal => <Animal animal={animal} />);
-
+      .map((animal) => <Animal key={animal.title} animal={animal} />);
     const handleChange = e => {
       this.setState({ selected: e.target.value });
     };
@@ -24,7 +23,7 @@ export default class Body extends Component {
               <option value="" defaultValue>
                 Keyword
               </option>
-              {animalData.map(animal => <option>{animal.keyword}</option>)};
+              {animalData.map(animal => <option key={animal.title}>{animal.keyword}</option>)};
             </select>
 
             <select className="animal-horn-filter" onChange={handleChange}>
@@ -46,3 +45,5 @@ export default class Body extends Component {
             </div>;
   }
 }
+
+//this is my deck - how you want it to run

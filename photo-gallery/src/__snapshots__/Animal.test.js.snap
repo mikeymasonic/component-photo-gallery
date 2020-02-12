@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Animal.js correctly 1`] = `
+<li>
+  <div
+    className="info-container"
+  >
+    <h2 />
+    <p
+      className="animal-title"
+    />
+  </div>
+  <div
+    className="image-container"
+  >
+    <img />
+  </div>
+  <p
+    className="horns-class"
+  >
+    Horns: 
+  </p>
+</li>
+`;

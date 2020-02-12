@@ -279,7 +279,7 @@ exports[`renders App.js correctly 1`] = `
               <p
                 className="animal-title"
               >
-                #truth
+                True Narwal
               </p>
             </div>
             <div

@@ -42,7 +42,7 @@ const animalData = [
     {
       url:
         "https://i.pinimg.com/originals/16/cf/2a/16cf2a0b3fd51b9bee08bb6296193b75.jpg",
-      title: "#truth",
+      title: "True Narwal",
       description: "The truth behind narwhals",
       keyword: "narwhal",
       horns: "1"
