@@ -10,7 +10,7 @@ export default class Body extends Component {
       .filter(animal => {
         if (!this.state.selected) return true;
 
-        return animal.horns === this.state.selected || animal.keyword === this.state.selected;
+        return animal.horns === this.state.selected || animal.keyword === this.state.selected || animal.description === this.state.selected || animal.title === this.state.selected;
       })
       .map((animal) => <Animal key={animal.title} animal={animal} />);
     const handleChange = e => {
@@ -26,6 +26,13 @@ export default class Body extends Component {
               {animalData.map(animal => <option key={animal.title}>{animal.keyword}</option>)};
             </select>
 
+            <select className="animal-title-filter" onChange={handleChange}>
+              <option value="" defaultValue>
+                Title
+              </option>
+              {animalData.map(animal => <option key={animal.title}>{animal.title}</option>)};
+            </select>
+
             <select className="animal-horn-filter" onChange={handleChange}>
               <option value="" defaultValue>
                 # of Horns
@@ -35,6 +42,15 @@ export default class Body extends Component {
               <option value="3">3 </option>
               <option value="100">100</option>
             </select>
+            
+            <select className="animal-description-filter" onChange={handleChange}>
+              <option value="" defaultValue>
+                Description
+              </option>
+              {animalData.map(animal => <option key={animal.title}>{animal.description}</option>)};
+            </select>
+
+            
           </section>
 
           <section className="list-section">

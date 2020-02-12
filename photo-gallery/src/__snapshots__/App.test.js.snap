@@ -92,6 +92,78 @@ exports[`renders App.js correctly 1`] = `
           ;
         </select>
         <select
+          className="animal-title-filter"
+          onChange={[Function]}
+        >
+          <option
+            defaultValue={true}
+            value=""
+          >
+            Title
+          </option>
+          <option>
+            UniWhal
+          </option>
+          <option>
+            Rhino Family
+          </option>
+          <option>
+            Unicorn Head
+          </option>
+          <option>
+            UniLego
+          </option>
+          <option>
+            Basically a unicorn
+          </option>
+          <option>
+            True Narwal
+          </option>
+          <option>
+            Baby Rhino
+          </option>
+          <option>
+            Cera
+          </option>
+          <option>
+            Narwhal costume
+          </option>
+          <option>
+            Rhino costume
+          </option>
+          <option>
+            Believe
+          </option>
+          <option>
+            Markhor
+          </option>
+          <option>
+            Baby markhor
+          </option>
+          <option>
+            Mouflon
+          </option>
+          <option>
+            Addax
+          </option>
+          <option>
+            Baby mouflon
+          </option>
+          <option>
+            Happy Jackson's Chameleon
+          </option>
+          <option>
+            Serious Jackson's Chameleon
+          </option>
+          <option>
+            Horned Lizard
+          </option>
+          <option>
+            Smaug
+          </option>
+          ;
+        </select>
+        <select
           className="animal-horn-filter"
           onChange={[Function]}
         >
@@ -121,6 +193,78 @@ exports[`renders App.js correctly 1`] = `
           >
             100
           </option>
+        </select>
+        <select
+          className="animal-description-filter"
+          onChange={[Function]}
+        >
+          <option
+            defaultValue={true}
+            value=""
+          >
+            Description
+          </option>
+          <option>
+            A unicorn and a narwhal nuzzling their horns
+          </option>
+          <option>
+            Mother (or father) rhino with two babies
+          </option>
+          <option>
+            Someone wearing a creepy unicorn head mask
+          </option>
+          <option>
+            Lego figurine dressed in a unicorn outfit
+          </option>
+          <option>
+            A narwhal is basically a unicorn after all, right?
+          </option>
+          <option>
+            The truth behind narwhals
+          </option>
+          <option>
+            This is actually a figurine but it looks kinda real
+          </option>
+          <option>
+            Three horns but still, horns. And who doesn't like The Land Before Time?
+          </option>
+          <option>
+            A woman wearing a blue narwhal costume
+          </option>
+          <option>
+            Mascots have to get their costumes somewhere
+          </option>
+          <option>
+            I believe in unicorns, do you?
+          </option>
+          <option>
+            These wild goats eat snakes, then secrete a foam that locals fight over for the antivenom properties -- how cool is that?
+          </option>
+          <option>
+            Even the babies are adorable
+          </option>
+          <option>
+            Those horns though
+          </option>
+          <option>
+            This guy is basically extinct but survives well in captivity, so they're frequently found in zoos
+          </option>
+          <option>
+            The cuteness that is a baby mouflon asleep
+          </option>
+          <option>
+            These are really common in Hawaii
+          </option>
+          <option>
+            This one is very serious.
+          </option>
+          <option>
+            Fave food: ants
+          </option>
+          <option>
+            Fan illustration of Smaug from 'The Hobbit'
+          </option>
+          ;
         </select>
       </section>
       <section

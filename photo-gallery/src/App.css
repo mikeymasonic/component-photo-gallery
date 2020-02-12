@@ -100,16 +100,29 @@ section {
 }
 
 .animal-horn-filter {
-    height: 48px;
+    height: 40px;
     width: 150px;
     font-size: 1.2em;
 }
 
 .animal-keyword-filter {
-  height: 48px;
+  height: 40px;
   width: 150px;
   font-size: 1.2em;
 }
+
+.animal-description-filter {
+    height: 40px;
+    /* width: 150px; */
+    font-size: 1em;
+  }
+
+
+.animal-title-filter {
+    height: 40px;
+    width: 140px;
+    font-size: 1em;
+  }
 
 .logo {
   width: 20%;
