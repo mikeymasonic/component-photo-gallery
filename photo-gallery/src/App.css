@@ -102,13 +102,13 @@ section {
 .animal-horn-filter {
     height: 40px;
     width: 150px;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .animal-keyword-filter {
   height: 40px;
   width: 150px;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .animal-description-filter {
