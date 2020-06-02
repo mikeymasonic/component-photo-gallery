@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App.js correctly 1`] = `
+<div>
+  <header>
+    <img
+      alt="Horn"
+      className="logo"
+      src="logo.png"
+    />
+    <h1>
+      Various Horned Animals
+    </h1>
+  </header>
+</div>
+`;

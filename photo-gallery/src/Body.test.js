@@ -1,9 +1,10 @@
 import React from 'react';
-import App from './App';
+import Body from './Body'
 import renderer from "react-test-renderer";
-test('renders App.js correctly', () => {
+
+test('renders Animal.js correctly', () => {
   const tree = renderer
-  .create(<App />)
+  .create(<Body />)
   .toJSON();
   expect(tree).toMatchSnapshot();
 });
